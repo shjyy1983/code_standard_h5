@@ -12,6 +12,6 @@ const App = (): any => {
   )
 }
 
-let a = 'xxx2';;;;;
+let a = 'xxx3'
 
 export default App
