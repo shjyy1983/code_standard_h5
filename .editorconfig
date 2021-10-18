@@ -1,0 +1,32 @@
+# EditorConfig is awesome: https://EditorConfig.org
+# https://zhuanlan.zhihu.com/p/366141969
+
+# 已经是顶层配置文件，不必继续向上搜索
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+# 编码字符集
+charset = utf-8
+# 换行符 lf
+end_of_line = lf
+# 文件以一个空白行结尾
+insert_final_newline = true
+# 缩进风格是空格
+indent_style = space
+# 去除行首的任意空白字符
+trim_trailing_whitespace = false
+indent_size = 2
+
+[*.gradle]
+indent_size = 4
+
+[*.kts]
+indent_size = 4
+
+[BUCK]
+indent_size = 4
+
+# Windows files
+[*.bat]
+end_of_line = crlf
