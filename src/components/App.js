@@ -1,4 +1,5 @@
 /**
+ * @flow
  * @format
  */
 
@@ -12,6 +13,12 @@ const App = (): any => {
   )
 }
 
-let a = 'xxx6'
+let a = 22
+
+function dosome(x: number): number {
+  return x * 10
+}
+
+dosome(a)
 
 export default App
