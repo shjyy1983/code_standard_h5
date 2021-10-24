@@ -12,7 +12,7 @@ module.exports = {
   tabWidth: 2,
 
   // 在语句末尾添加分号，默认是 true
-  semi: false,
+  semi: true,
 
   // 使用单引号，默认是 false
   singleQuote: true,
@@ -74,4 +74,4 @@ module.exports = {
   // "auto" Prettier 自动识别并格式化
   // "off" 关闭自动格式化
   embeddedLanguageFormatting: 'auto',
-}
+};

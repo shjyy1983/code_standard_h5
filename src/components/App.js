@@ -3,22 +3,22 @@
  * @format
  */
 
-import React from 'react'
+import React from 'react';
 
 const App = (): any => {
   return (
     <div>
       <h1>Hello2</h1>
     </div>
-  )
+  );
+};
+
+let a = undefined;
+
+function dosome(x: ?string): ?string {
+  return x;
 }
 
-let a = 22
+dosome(a);
 
-function dosome(x: number): number {
-  return x * 10
-}
-
-dosome(a)
-
-export default App
+export default App;
